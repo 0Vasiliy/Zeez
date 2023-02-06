@@ -1158,38 +1158,4 @@
     }
 }
 
-// =>1920px
-@media (min-width: 1920px){
-    
-    .title_subtittle{
-        left: 370px;
-    }
-    .title_bigtitle{
-        left: 370px;
-    }
-}
-
-@media (min-width: 1940px){
-    .title_subtittle{
-        left: 380px;
-    }
-    .title_bigtitle{
-        left: 380px;
-    }
-}
-
-@media (min-width: 1980px){
-    .title_subtittle{
-        left: 400px;
-    }
-    .title_bigtitle{
-        left: 400px;
-    }
-}
-
-@media (min-width: 2020px){
-    .about{      
-        height: calc(70vh - 16px);      
-    }
-}
 
