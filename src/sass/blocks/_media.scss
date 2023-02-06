@@ -1188,11 +1188,8 @@
 }
 
 @media (min-width: 2020px){
-    .title_subtittle{
-        left: 420px;
-    }
-    .title_bigtitle{
-        left: 420px;
+    .about{      
+        height: calc(70vh - 16px);      
     }
 }
 
