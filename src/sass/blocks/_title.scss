@@ -1,0 +1,32 @@
+
+.title_subtittle{
+    position: absolute;
+    max-width: 366px;
+    height: 32px;
+    left: 376px;
+    top: 264px;
+    font-family: 'Poppins-SemiBold', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.06em;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+    b{
+        margin-left: 5px;
+    }
+}
+.title_bigtitle{
+    position: absolute;
+    max-width: 1168px;
+    height: 176px;
+    left: 376px;
+    top: 320px;
+    font-family: 'Poppins-Bold', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 88px;
+    color: #FFFFFF;
+}

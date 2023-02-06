@@ -1,0 +1,34 @@
+html {
+    box-sizing: content-box;
+}
+*,*::before, *::after{
+    box-sizing: inherit;
+}
+body{
+    margin: 0;
+}
+*{
+    margin: 0 auto;
+    max-width: 1920px;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1920px;
+}
+@import 'blocks/modal';
+@import 'blocks/menu';
+@import 'blocks/promo';
+@import 'blocks/logo';
+@import 'blocks/phone';
+@import 'blocks/title';
+@import 'blocks/button';
+@import 'blocks/form';
+@import 'blocks/panel';
+@import 'blocks/media';
+@import 'blocks/present';
+@import 'blocks/demo';
+@import 'blocks/slider';
+
+@import 'base/fonts';
+ 

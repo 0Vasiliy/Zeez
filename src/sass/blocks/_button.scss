@@ -1,0 +1,42 @@
+.btn{
+    position: absolute;
+    width: 270px;
+    height: 100px;
+    margin-left: 376px;
+    margin-top: 536px;
+    background: #3A4574;
+    border: none;
+    font-family: 'Poppins-Thin';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    cursor: pointer;
+    b{
+        margin-right: 2px;
+    }
+    &:hover{
+        max-width: 280px;
+        height: 110px;
+        background: #FFFFFF;
+        border-radius: 12px;
+        transition: 1s linear; 
+        color: #181818;
+        font-size: 20px;
+        font-family:'Poppins-Bold';              
+    }     
+}
+.button{
+    margin-top: 20px;
+    width: 180px;
+    height: 40px;
+    border-radius: 5px;
+    background-color:  #4b3c3c;
+    border: none;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+}

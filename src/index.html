@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/swiper@9.0.1/swiper-bundle.min.css" rel="stylesheet">
+</head>
+<body>
+    <section class="promo">
+        <div class="container">
+           <div class="promo_wrapper">
+                <img src="./img/main/main.jpg" alt="main">               
+                <div class="menu">
+                    <div class="logo">
+                        <img src="./icons/logo/logo.svg" alt="logo">
+                    </div>
+                    <nav>
+                        <ul class="menu_list">
+                            <li class= "menu_item menu_carte"><a href="#">À la carte </a></li>
+                            <li class= "menu_item menu_wijn"><a href="#">Wijnkaart</a></li>
+                            <li class= "menu_item menu_lunch"><a href="#">Lunchmenu</a></li>
+                            <li class= "menu_item menu_contact"><a href="#">Contact</a></li>
+                        </ul>
+                    </nav> 
+                    <div class="hamburger">
+                        <span></span>
+                        <span class="long"></span>
+                        <span></span>
+                    </div>
+                    <div class="phone">
+                        <a class="phone_link" href="tel:+3292825725"><img src="./icons/number/number.svg"></a>
+                        <div class="phone_number"><b>+32 9</b> 282 57 25</div>
+                    </div>              
+                </div>
+                <div class="title">
+                    <div class="title_subtittle">OPEN EVERYDAY <b>6AM - </b><b>9PM</b></div>
+                    <h1 class="title_bigtitle">A bad day with lunch is better than a good day without it.</h1>
+                </div>
+                <button class="btn" id="btn_title"><b>Reserve a table</b></button>
+                <div class="sidepanel">
+                        <a href="https://www.youtube.com/channel/UCcr9tciZbuvJrEVAgIXCp8Q" class="sidepanel_link_fb"> <img src="./icons/social/Social_Button_1.svg" alt="Social_Button_1"></a>
+                        <a href="https://www.looky.com" class="sidepanel_link_lg"> <img src="./icons/social/Social_Button_2.svg" alt="Social_Button_2"></a>
+                        <a href="https://www.youtube.com/channel/UCpg-U3_G3ZVck6QO6uhW_OA" class="sidepanel_link_tv"> <img src="./icons/social/Social_Button_3.svg" alt="Social_Button_3"></a>
+                        <a href="https://www.youtube.com" class="sidepanel_link_yt"> <img src="./icons/social/Social_Button_4.svg" alt="Social_Button_4"></a>
+                </div>
+           </div>
+           
+        </div>
+    </section>
+    
+    <div class="overlay">
+        <div class="modal" id="order">
+            <div class="modal_close">&times;</div>
+            <div class="modal_subtitle">Ваш заказ:</div>
+            <form class="feed-form feed-form_mt25" action="#">
+                <input name="name" required placeholder="Ваше имя" type="text"> 
+                <input name="phone" required placeholder="Ваш телефон"> 
+                <input name="email" required placeholder="Ваш E-mail" type="email"> 
+                <textarea placeholder="Сообщение..." class="modal_text" required></textarea>
+                <button class="button button_submit">купить</button>
+            </form>
+        </div>
+    </div>
+
+    <section class="about">
+        <div class="container">
+            <div class="present_text">
+                <div class="present_text_block">
+                    <h1 class="present_title">Woensdag 12/01</h1>
+                    <div class="present_subtitle">Salade met Serrano<p><li></li><li></li><li></li></p><b>Steak Tartaar</b></div>
+                </div>
+                <div class="present_vector"></div>
+                <div class="present_text_block">
+                    <h1 class="present_title">Donderdag 13/01</h1>
+                    <div class="present_subtitle">Toast Roquefort<p><li></li><li></li><li></li></p>Penne met Kip en Prei</div>
+                </div>
+                <div class="present_vector"></div>
+                <div class="present_text_block">
+                    <h1 class="present_title">Vrijdag 14/01</h1>
+                    <div class="present_subtitle">Verrassing van de Chef<p><li></li><li></li><li></li></p>Penne met Kip en Prei</div>
+                </div>
+                <div class="present_vector"></div>
+                <div class="present_text_block">
+                    <h1 class="present_title">Vrijdag 15</h1>
+                    <div class="present_subtitle">Verrassing van de Chef<p><li></li><li></li><li></li></p>Penne met Kip en Prei</div>
+                </div>
+                <div class="present_vector"></div>                    
+                <div class="present_text_block">
+                    <h1 class="present_title">Vrijdag 16/01</h1>
+                    <div class="present_subtitle">Verrassing van de Chef<p><li></li><li></li><li></li></p>Penne met Kip en Prei</div>
+                </div>
+                <div class="present_vector"></div>
+            </div>                          
+            <div class="demo_block_foto">                                                           
+                    <div class="demo_block_foto_left">
+                            <picture>                               
+                                <source
+                                        srcset="./img/foto/foto_1_smoll.jpg"
+                                        media="(max-width: 1400px)" />
+                                <source
+                                        srcset="./img/foto/foto_1_medium.jpg"
+                                        media="(max-width: 1640px)" />
+                                <img
+                                    src="./img/foto/foto_1.jpg"
+                                    alt="foto_1" />
+                            </picture>                            
+                    </div> 
+                     <div class="demo_block_foto_rigth">
+                        <picture>                               
+                            <source
+                                    srcset="./img/foto/foto_2_smoll.jpg"
+                                    media="(max-width: 1400px)" />
+                            <source
+                                    srcset="./img/foto/foto_2_medium.jpg"
+                                    media="(max-width: 1640px)" />
+                            <img
+                                src="./img/foto/foto_2.jpg"
+                                alt="foto_2" />
+                        </picture>      
+                    </div>                     
+                <div class="squary"></div>                  
+            </div>        
+        </div>
+    </section>
+    
+    <section class="slider-container">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="./icons/logo/logo_“.svg" alt="logo_“" class="swiper-logo">
+                    <h1 class="swiper-heading">Goede service, lekker eten, toffe ambiance</h1>
+                    <div class="swiper-subtitle">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor<br> invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo  dolores et<br> ea rebum. Stet clita kasd gubergren.</div>
+                    <div class="swiper-title">ALAIN HEYNDRICKX</div>
+                </div>
+                <div class="swiper-slide slide-next">
+                    <img src="./icons/logo/logo_“.svg" alt="logo_“" class="swiper-logo">
+                    <h1 class="swiper-heading">Goede service, lekker eten, toffe ambiance</h1>
+                    <div class="swiper-subtitle">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor<br> invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo  dolores et<br> ea rebum. Stet clita kasd gubergren.</div>
+                    <div class="swiper-title">ALAIN HEYNDRICKX</div>
+                </div>
+                <div class="swiper-slide slide-prev">
+                    <img src="./icons/logo/logo_“.svg" alt="logo_“" class="swiper-logo">
+                    <h1 class="swiper-heading">Goede service, lekker eten, toffe ambiance</h1>
+                    <div class="swiper-subtitle">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor<br> invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo  dolores et<br> ea rebum. Stet clita kasd gubergren.</div>
+                    <div class="swiper-title">ALAIN HEYNDRICKX</div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+            <div class="swiper-scrollbar"></div>
+            <div class="dots-block">
+                <div class="dots-item active"></div>
+                <div class="dots-item"></div>
+                <div class="dots-item"></div>
+            </div>
+        </div>
+    </section>
+
+    <script src="./js/respimage.min.js" async=""></script>  
+    <script src="./js/script.js"></script>
+    <script src="./js/slider.js"></script>
+    
+
+</body>
+</html>

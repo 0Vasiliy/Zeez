@@ -1,0 +1,104 @@
+.menu{
+    position:absolute;
+    display: flex; 
+    align-items: center;
+    max-width: 1200px;
+    margin-top: 71px;
+    margin-left: 376px;
+    &_list{
+        display: flex;
+        align-items: center;
+        margin-left: 363px;
+        max-width: 460px;
+        list-style-type: none;
+    }     
+    &_carte{ 
+        margin-left:45px ;            
+        a{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;      
+            font-feature-settings: 'pnum' on, 'lnum' on;       
+            color: #FFFFFF;
+            text-decoration: none;
+            &:hover{
+                max-width: 100px;
+                height: 30px;
+                background: #FFFFFF;
+                border-radius: 12px;
+                transition: 1s linear; 
+                color: #181818; 
+                padding: 3px 3px 3px 3px;       
+            }       
+        }      
+    }
+    &_wijn{    
+        margin-left: 45px;
+        a{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: #FFFFFF;
+            text-decoration: none;
+            &:hover{
+                max-width: 100px;
+                height: 30px;
+                background: #FFFFFF;
+                border-radius: 12px;
+                transition: 1s linear; 
+                color: #181818; 
+                padding: 3px 3px 3px 3px;       
+            }     
+        }
+    }
+    &_lunch{
+        margin-left: 46px;
+        a{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: #FFFFFF;
+            text-decoration: none;
+            &:hover{
+                max-width: 100px;
+                height: 30px;
+                background: #FFFFFF;
+                border-radius: 12px;
+                transition: 1s linear; 
+                color: #181818; 
+                padding: 3px 3px 3px 3px;       
+            }     
+        }
+    }
+    &_contact{
+        margin-left: 46px;
+        a{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: #FFFFFF;
+            text-decoration: none;
+            &:hover{
+                max-width: 100px;
+                height: 30px;
+                background: #FFFFFF;
+                border-radius: 12px;
+                transition: 1s linear; 
+                color: #181818; 
+                padding: 3px 3px 3px 3px;       
+            }     
+        }
+        
+    }
+}
+.hamburger{   
+    display: none;   
+}

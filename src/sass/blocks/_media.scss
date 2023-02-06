@@ -1,0 +1,1198 @@
+// < = 1920px
+
+
+
+@media (max-width: 1690px){
+    .logo{
+        width: 260px;
+    }
+    .phone{
+        margin-left: 149px;
+    }
+    .title_bigtitle{
+        font-size: 58px;
+        line-height: 80px;
+        max-width: 1100px;
+    }
+    .sidepanel{
+        margin-left: 1200px;
+    }
+    
+}
+@media (max-width: 1640px){
+      
+    .about{
+        display: flex;
+        height: calc(130vh - 16px);
+        flex-direction: column ;
+        justify-content:center;
+        flex-wrap: wrap; 
+        align-items:center; 
+        align-content:center;
+        
+    }
+    .demo_block_foto{
+        display: flex;
+        transform: translateX(-60%) scaleX(0.8) scaleY(0.8);
+        
+        }
+       
+    .present_text{      
+        top:50%;
+        transform: translateX(90%) scaleX(0.8) scaleY(0.8); 
+    }
+}
+   
+@media (max-width: 1620px){
+    .swiper-slide{
+        img{
+         max-width: 60%;
+        }
+        .swiper-heading{
+         transform: scaleX(0.555) scaleY(0.555);
+         
+        }
+        .swiper-subtitle{
+        
+         transform: scaleX(0.8) scaleY(0.9);
+         
+        }
+        .swiper-title{
+         transform: scaleX(0.8) scaleY(0.8);
+         
+        }
+     }
+    .logo{
+        width: 260px;
+    }
+    .phone{
+        margin-left: 109px;
+    }
+    .title_subtittle{
+        left: 346px;
+    }
+    .title_bigtitle{
+        left: 346px;
+        font-size: 48px;
+        max-width: 1050px;       
+    }
+    .menu{
+        left: -40px;
+        &_list{
+            margin-left: 325px;
+           
+        }
+    }
+    .btn{
+        width: 250px;
+        height: 80px;
+        margin-left: 346px;
+    }
+    .sidepanel{
+        margin-left: 1120px;
+    }
+
+    .demo_block_foto{
+        top: -60px;
+       left: 50px;
+    }
+    .swiper-slide{
+        img{
+            left: 790px;
+        }
+    }
+    .about{
+        display: flex;
+        // margin: 0 auto;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: column;         
+    } 
+    
+    .demo_block_foto{
+        position: relative;
+    }
+    .present_text{
+        position: relative;
+    }
+}
+
+@media (max-width: 1520px){
+    .logo{
+        width: 240px;
+    }
+    .phone{
+        margin-left: 80px;
+    }
+    .title_subtittle{
+        left: 336px;
+    }
+    .title_bigtitle{
+        left: 336px;
+        font-size: 48px;
+        max-width: 1000px;       
+    }
+    .menu{
+        left: -50px;
+        &_list{
+        margin-left: 225px;
+        &_wijn{
+            margin-left: 35px;
+        }
+        &_lunch{
+            margin-left: 35px;
+        }
+        &_contact{
+            margin-left: 35px;
+        }
+        }
+    }
+    .btn{
+        width: 220px;
+        height: 60px;
+        margin-top: 526px;
+        margin-left: 336px;
+    }
+    .sidepanel{
+        margin-left: 980px;
+        margin-top: 526px;
+    }
+    .present_text{
+       margin-left: 250px;
+    }
+    .demo_block_foto{
+        top: -80px;
+        left: 10px;
+    }
+    
+}
+@media (max-width:1450px){
+    .swiper-slide{
+        img{
+         max-width: 60%;
+        }
+        .swiper-heading{
+         transform: scaleX(0.555) scaleY(0.555);
+         
+        }
+        .swiper-subtitle{
+        
+         transform: scaleX(0.75) scaleY(0.9);
+         
+        }
+        .swiper-title{
+         transform: scaleX(0.8) scaleY(0.8);
+         
+        }
+     }
+    .about{      
+        height: calc(90vh - 16px);      
+    }
+    .demo_block_foto{
+        margin-top: -10%;
+        display: flex;
+        transform: translateX(-70%) scaleX(0.65) scaleY(0.65);       
+        }      
+    .present_text{      
+        top:30%;
+        transform: translateX(90%) scaleX(0.65) scaleY(0.65); 
+    }
+}
+@media (max-width: 1320px){
+    .about{      
+        height: calc(90vh - 16px);      
+    }
+    .demo_block_foto{
+        margin-top: -10%;
+        display: flex;
+        transform: translateX(-75%) scaleX(0.6) scaleY(0.6);       
+        }      
+    .present_text{      
+        top:30%;
+        transform: translateX(90%) scaleX(0.6) scaleY(0.6); 
+    }
+    .logo{
+        width: 230px;
+    }
+    .phone{
+        margin-left: 80px;
+    }
+    .title_subtittle{
+        left: 280px;
+    }
+    .title_bigtitle{
+        left: 280px;
+        font-size: 48px;
+        max-width: 1000px;       
+    }
+    .menu{
+        left: -100px;
+        &_list{
+            margin-left: 215px;
+        }
+    }
+    .btn{
+        width: 210px;
+        height: 50px;
+        margin-top: 516px;
+        margin-left: 280px;
+    }
+    .sidepanel{
+        margin-left: 930px;
+        margin-top: 516px;
+        img{
+            width: 42px;
+            height: 42px;
+        }
+    }
+}
+
+@media (max-width: 1220px){
+    .about{      
+        height: calc(100vh - 16px);      
+    }
+    .demo_block_foto{
+        margin-top: -10%;
+        display: flex;
+        transform: translateX(-80%) scaleX(0.6) scaleY(0.6);       
+        }      
+    .present_text{      
+        top:30%;
+        transform: translateX(110%) scaleX(0.6) scaleY(0.6); 
+    }
+    .logo{
+        width: 230px;
+    }
+    .phone{
+        margin-left: 70px;
+    }
+    .title_subtittle{
+        left: 250px;
+        font-size: 20px
+    }
+    .title_bigtitle{
+        left: 250px;
+        font-size: 42px;
+        max-width: 950px; 
+        line-height: 70px;
+    }
+    .menu{
+        left: -140px;
+        &_list{
+        margin-left: 235px;
+        &_wijn{
+            margin-left: 30px;
+        }
+        &_lunch{
+            margin-left: 30px;
+        }
+        &_contact{
+            margin-left: 30px;
+        }
+        }
+    }
+    .btn{
+        width: 180px;
+        height: 40px;
+        margin-top: 490px;
+        margin-left: 255px;
+    }
+    .sidepanel{
+        margin-left: 920px;
+        margin-top: 490px;
+        img{
+            width: 38px;
+            height: 38px;
+        }
+    }
+}
+
+
+@media (max-width: 1180px){
+    .logo{
+        width: 220px;
+    }
+    .phone{
+        margin-left: 70px;
+    }
+    .title_subtittle{
+        left: 220px;
+        font-size: 20px
+    }
+    .title_bigtitle{
+        left: 220px;
+        font-size: 42px;
+        max-width: 950px; 
+        line-height: 70px;
+    }
+    .menu{
+        left: -170px;
+        &_list{
+        margin-left: 205px;
+        &_wijn{
+            margin-left: 25px;
+        }
+        &_lunch{
+            margin-left: 25px;
+        }
+        &_contact{
+            margin-left: 25px;
+        }
+        }
+    }
+    .btn{
+        width: 170px;
+        height: 36px;
+        margin-top: 490px;
+        margin-left: 220px;
+    }
+    .sidepanel{
+        margin-left: 890px;
+        margin-top: 490px;
+        img{
+            width: 36px;
+            height: 36px;
+        }
+    }
+}
+
+@media (max-width: 1160px){  
+    .swiper-slide{
+        img{
+         max-width: 60%;
+        }
+        .swiper-heading{
+         transform: scaleX(0.555) scaleY(0.555);
+         
+        }
+        .swiper-subtitle{
+        
+         transform: scaleX(0.6) scaleY(0.9);
+         
+        }
+        .swiper-title{
+         transform: scaleX(0.8) scaleY(0.8);
+         
+        }
+     } 
+    .demo_block_foto{
+        margin-top: -10%;
+        display: flex;
+        transform: translateX(-90%) scaleX(0.6) scaleY(0.6);       
+        }      
+    .present_text{      
+        top:30%;
+        transform: translateX(100%) scaleX(0.6) scaleY(0.6); 
+    }
+    .logo{
+        width: 210px;
+    }
+    .phone{
+        margin-left: 40px;
+    }
+    .title_subtittle{
+        left: 220px;
+        font-size: 19px
+    }
+    .title_bigtitle{
+        left: 210;
+        font-size: 38px;
+        max-width: 900px; 
+        line-height: 60px;
+    }
+    .menu{
+        left: -170px;
+        &_list{
+        margin-left: 185px;
+        &_wijn{
+            margin-left: 10px;
+        }
+        &_lunch{
+            margin-left: 10px;
+        }
+        &_contact{
+            margin-left: 10px;
+        }
+        }
+    }
+    .btn{
+        width: 150px;
+        height: 34px;
+        margin-top: 460px;
+        margin-left: 220px;
+        font-size: 14px;
+    }
+    .sidepanel{
+        margin-left: 850px;
+        margin-top: 460px;
+        img{
+            width: 30px;
+            height: 30px;
+        }
+    }
+}
+
+@media (max-width: 1100px){
+    .logo{
+        width: 140px;
+        height: 32px;
+    }
+    .phone{
+        margin-left: 30px;
+        img{
+            width: 15px;
+            height: 15px;
+        }
+        &_number{
+            font-size: 12px;
+        }
+    }
+    .title_subtittle{
+        left: 220px;
+        font-size: 16px
+    }
+    .title_bigtitle{
+        left: 200;
+        font-size: 30px;
+        max-width: 800px; 
+        line-height: 50px;
+    }
+    .menu{
+        left: -170px;
+        &_list{
+            margin-left: 115px;
+        &_carte{
+            a{
+                font-size: 12px;
+            }
+        }
+        &_wijn{
+            margin-left: 8px;
+            a{
+                font-size: 12px;
+            }
+        }
+        &_lunch{
+            margin-left: 8px;
+            a{
+                font-size: 12px;
+            }
+        }
+        &_contact{
+            margin-left: 8px;
+            a{
+                font-size: 12px;
+            }
+        }
+        }
+    }
+    .btn{
+        width: 130px;
+        height: 30px;
+        margin-top: 440px;
+        margin-left: 220px;
+        font-size: 12px;
+    }
+    .sidepanel{
+        margin-left: 750px;
+        margin-top: 440px;
+        img{
+            width: 22px;
+            height: 22px;
+        }
+    }
+}
+@media (max-width: 1040px){
+    .logo{
+        width: 130px;
+        height: 31px;
+    }
+    .phone{
+        margin-left: 25px;
+        img{
+            width: 15px;
+            height: 15px;
+        }
+        &_number{
+            font-size: 12px;
+        }
+    }
+    .menu{
+        left: -170px;
+        &_list{
+            margin-left: 95px;
+        &_carte{
+            a{
+                font-size: 12px;
+            }
+        }
+        &_wijn{
+            margin-left: 8px;
+            a{
+                font-size: 12px;
+            }
+        }
+        &_lunch{
+            margin-left: 8px;
+            a{
+                font-size: 12px;
+            }
+        }
+        &_contact{
+            margin-left: 8px;
+            a{
+                font-size: 12px;
+            }
+        }
+        }
+    } 
+    
+    .title_subtittle{
+        left: 220px;
+        font-size: 15px
+    }
+    .title_bigtitle{
+        left: 200;
+        font-size: 28px;
+        max-width: 750px; 
+        line-height: 45px;
+    }
+    
+    .btn{
+        width: 120px;
+        height: 26px;
+        margin-top: 420px;
+        margin-left: 220px;
+        font-size: 12px;
+    }
+    .sidepanel{
+        margin-left: 730px;
+        margin-top: 420px;
+        img{
+            width: 22px;
+            height: 22px;
+        }
+    }
+}
+
+@media (max-width: 992px){
+    .swiper-slide{
+        img{
+         max-width: 60%;
+        }
+        .swiper-heading{
+         transform: scaleX(0.555) scaleY(0.555);
+         
+        }
+        .swiper-subtitle{
+         transform: scaleX(0.555) scaleY(0.9);        
+        }
+        .swiper-title{
+         transform: scaleX(0.8) scaleY(0.8);
+         
+        }
+     }
+    .demo_block_foto{
+        margin-top: -10%;
+        display: flex;
+        transform: translateX(-120%) scaleX(0.6) scaleY(0.6);       
+        }      
+    .present_text{      
+        top:30%;
+        transform: translateX(70%) scaleX(0.6) scaleY(0.6); 
+    }
+
+    .menu_list {
+        position: fixed;
+        display: none;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color:#c0c0c0;
+        color: black;
+        border-style: solid;
+        border-width: 3px;
+        border-image-source: linear-gradient(189.0deg, #263e66 20%, #09213d 40%, #111f2d 61%, #23599c 79%);
+        border-image-slice: 1;
+        max-width: 50%;
+        max-height: 100%;
+        transition: 0.5s;
+        box-shadow: 0 10px 27px rgba(0,0,0,0.5);
+        // right:-200%;     
+        top: 5rem;
+        z-index: 10;
+        li{
+            margin: 0 auto;
+            padding: 15px;
+        }
+        a{
+            font-family: 'Poppins', sans-serif;
+            text-decoration: none;
+            font-size: 24px;
+            font-weight: 300;
+            color:rgb(54, 192, 157) ;
+        }
+        &_active{           
+            display: block;
+            right: 51%;
+
+        }
+    }
+    // hamburger
+    .hamburger {  
+        display: block;
+		position: absolute;
+		right: -55%;
+        margin-right: 10%;
+		top: 50%;
+		transform: translateY(-50%);
+		width: 26px;
+		height: 12px;
+		span {
+            display: block;
+            width: 100%;
+            height: 3px;
+            margin: 5px auto;
+            transition: 0.5s;
+            background: linear-gradient( 120deg,rgba(255, 255, 255, 0.863),rgba(255, 255, 255, 0.07));
+            border: 1px solid;
+            border-image-slice: 1;
+            border-image-source: linear-gradient(-165deg,rgba(255, 255, 255, 0.03),rgba(255, 255, 255, 0.65));
+            border-top: none;
+        }
+		&_active {
+			span {
+				margin-bottom: -2px; 
+				&:nth-child(1){
+					transform: translateY(10px) rotate(-45deg);
+                }
+				&:nth-child(2){
+					display: none;
+                }
+				&:nth-child(3){
+					transform: translateY(3px) rotate(45deg);
+                }
+            }
+        }
+    }
+    
+    .logo{
+        width: 130px;
+        height: 31px;
+    }
+    .phone{
+        margin-left: 325px;
+        img{
+            width: 15px;
+            height: 15px;
+        }
+        &_number{
+            font-size: 12px;
+        }
+    }
+    .title_subtittle{
+        top: 190px;
+        left: 220px;
+        font-size: 13px
+    }
+    .title_bigtitle{
+        left: 200;
+        top: 246px;
+        font-size: 22px;
+        max-width: 425px; 
+        line-height: 40px;
+    }
+    
+    .btn{
+        width: 100px;
+        height: 24px;
+        margin-top: 340px;
+        margin-left: 220px;
+        font-size: 10px;
+    }
+    .sidepanel{
+        margin-left: 480px;
+        margin-top: 340px;
+        img{
+            width: 20px;
+            height: 20px;
+        }
+    }
+    .present{
+        margin-left: -150px;
+    }
+
+}
+@media (max-width: 890px){
+    .swiper-slide{
+        img{
+         max-width: 50%;
+        }
+        .swiper-heading{
+         transform: scaleX(0.5) scaleY(0.555);
+         
+        }
+        .swiper-subtitle{
+         transform: scaleX(0.5) scaleY(0.9);        
+        }
+        .swiper-title{
+         transform: scaleX(0.7) scaleY(0.8);
+         
+        }
+     }
+    .hamburger{
+        right: -45%;
+        margin-right: 10%;
+    }
+}
+@media (max-width: 860px){
+    .hamburger{
+        right: -40%;
+        margin-right: 10%;
+    }
+}
+@media (max-width: 830px){
+    .hamburger{
+        right: -35%;
+        margin-right: 10%;
+    }
+}
+@media (max-width: 810px){
+    .hamburger{
+        right: -25%;
+    }
+}
+
+@media (max-width: 790px){
+   
+    .swiper-slide{
+       img{
+        max-width: 60%;
+       }
+       .swiper-heading{
+        transform: scaleX(0.555) scaleY(0.555);
+        
+       }
+       .swiper-subtitle{
+       
+        transform: scaleX(0.55) scaleY(0.9);
+        
+       }
+       .swiper-title{
+        transform: scaleX(0.555) scaleY(0.555);
+        
+       }
+    }
+    .demo_block_foto{
+        margin-top: -20%;
+        display: flex;
+        transform: translateX(-120%) scaleX(0.555) scaleY(0.555);       
+        }      
+    .present_text{      
+        top:25%;
+        transform: translateX(85%) scaleX(0.555) scaleY(0.555); 
+    }
+    .logo{
+        width: 120px;
+        height: 30px;
+    }
+    .phone{
+        margin-left: 300px;
+        img{
+            width: 15px;
+            height: 15px;
+        }
+        &_number{
+            font-size: 12px;
+        }
+    }
+    .menu{
+        left: -210px;
+    }    
+    .title_subtittle{
+        top: 160px;
+        left: 170px;
+        font-size: 13px
+    }
+    .title_bigtitle{
+        top: 216px;
+        left: 170px;
+        font-size: 22px;
+        max-width: 450px; 
+        line-height: 40px;
+    }
+    
+    .btn{
+        width: 110px;
+        height: 24px;
+        margin-top: 300px;
+        margin-left: 170px;
+        font-size: 11px;
+    }
+    .sidepanel{
+        margin-left: 450px;
+        margin-top: 300px;
+        img{
+            width: 21px;
+            height: 21px;
+        }
+        &_link_lg{
+            margin-left: 15px;
+        }
+        &_link_tv{
+            margin-left: 15px;
+        }
+        &_link_yt{
+            margin-left: 15px;
+        }
+    }
+    .hamburger{
+        right: -43%;
+    }
+    
+}
+@media (max-width: 768px){
+
+    
+    .menu_list {
+        position: fixed;
+        display: none;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color:#c0c0c0;
+        color: black;
+        border-style: solid;
+        border-width: 3px;
+        border-image-source: linear-gradient(189.0deg, #263e66 20%, #09213d 40%, #111f2d 61%, #23599c 79%);
+        border-image-slice: 1;
+        max-width: 20%;
+        max-height: 100%;
+        transition: 0.5s;
+        box-shadow: 0 10px 27px rgba(0,0,0,0.5);
+        right:-200%;     
+        top: 5rem;
+        z-index: 10;
+        li{
+            margin: 0 auto;
+            padding: 15px;
+        }
+        a{
+            font-family: 'Poppins', sans-serif;
+            text-decoration: none;
+            font-size: 24px;
+            font-weight: 300;
+            color:rgb(54, 192, 157) ;
+        }
+        &_active{
+            display: block;
+            right: 11%;
+        }
+    }
+    // hamburger
+    .hamburger {  
+        display: block;
+		position: absolute;
+		right: -35%;
+        margin-right: 10%;
+		top: 50%;
+		transform: translateY(-50%);
+		width: 26px;
+		height: 12px;
+		span {
+            display: block;
+            width: 100%;
+            height: 3px;
+            margin: 5px auto;
+            transition: 0.5s;
+            background: linear-gradient( 120deg,rgba(255, 255, 255, 0.863),rgba(255, 255, 255, 0.07));
+            border: 1px solid;
+            border-image-slice: 1;
+            border-image-source: linear-gradient(-165deg,rgba(255, 255, 255, 0.03),rgba(255, 255, 255, 0.65));
+            border-top: none;
+        }
+		&_active {
+			span {
+				margin-bottom: -2px; 
+				&:nth-child(1){
+					transform: translateY(10px) rotate(-45deg);
+                }
+				&:nth-child(2){
+					display: none;
+                }
+				&:nth-child(3){
+					transform: translateY(3px) rotate(45deg);
+                }
+            }
+        }
+    }
+    .menu{
+        left: -210px;
+    }
+    .logo{
+        width: 130px;
+        height: 31px;
+    }
+    .phone{
+        margin-left: 305px;
+        img{
+            width: 15px;
+            height: 15px;
+        }
+        &_number{
+            font-size: 12px;
+        }
+    }
+    .title_subtittle{
+        top: 160px;
+        left: 170px;
+        font-size: 13px
+    }
+    .title_bigtitle{
+        left: 160;
+        top: 206px;
+        font-size: 22px;
+        max-width: 425px; 
+        line-height: 40px;
+    }
+    
+    .btn{
+        width: 100px;
+        height: 24px;
+        margin-top: 290px;
+        margin-left: 170px;
+        font-size: 10px;
+    }
+    .sidepanel{
+        margin-left: 450px;
+        margin-top: 290px;
+        img{
+            width: 20px;
+            height: 20px;
+        }
+    }
+
+}
+@media (max-width: 730px){
+    .hamburger{
+        right: -25%;
+        margin-right: 10%;
+    }
+    .menu_list{
+        &_active{
+            display: block;
+            right: 65%;
+        }
+    }
+}
+@media (max-width: 680px){
+    .swiper-slide{
+        img{
+         max-width: 60%;
+        }
+        .swiper-heading{
+         transform: scaleX(0.555) scaleY(0.555);
+         
+        }
+        .swiper-subtitle{
+         transform: scaleX(0.455) scaleY(0.8);        
+        }
+        .swiper-title{
+         transform: scaleX(0.7) scaleY(0.8);
+         
+        }
+     }
+    .about{      
+        height: calc(90vh - 16px);      
+    }
+    .demo_block_foto{
+        margin-top: -10%;
+        display: flex;
+        transform: translateX(-130%) scaleX(0.5) scaleY(0.5);       
+        }      
+    .present_text{      
+        top:30%;
+        transform: translateX(90%) scaleX(0.5) scaleY(0.5); 
+    }
+    .logo{
+        width: 140px;
+        height: 32px;
+    }
+    .phone{
+        margin-left: 190px;
+        img{
+            width: 15px;
+            height: 15px;
+        }
+        &_number{
+            font-size: 12px;
+        }
+    }
+    .menu{
+        margin-top: 50px;
+        left: -280px;
+    }
+    .menu_list{
+        &_active{
+            right: 73.551%;
+        }
+    }
+    .hamburger {  
+       
+		right: -80%;
+        				
+    }
+    .title_subtittle{
+        top: 120px;
+        left: 100px;
+        font-size: 10px
+    }
+    .title_bigtitle{
+        top: 170px;
+        left: 100px;
+        font-size: 16px;
+        max-width: 350px; 
+        line-height: 30px;
+    }
+    .btn{
+        width: 130px;
+        height: 30px;
+        margin-top: 240px;
+        margin-left: 100px;
+        font-size: 12px;
+    }
+    .sidepanel{
+        margin-left: 750px;
+        margin-top: 440px;
+        img{
+            width: 22px;
+            height: 22px;
+        }
+    }
+}
+@media (max-width: 600px){
+    .about{      
+        height: calc(70vh - 16px);      
+    }
+    .demo_block_foto{
+        margin-top: -35%;
+        display: flex;
+        transform: translateX(-150%) scaleX(0.48) scaleY(0.48);       
+        }      
+    .present_text{      
+        top:15%;
+        transform: translateX(80%) scaleX(0.48) scaleY(0.48); 
+    }
+    .menu_list {
+        li{
+            margin: 0 auto;
+            padding: 10px;
+        }
+        a{
+            font-size: 15px;
+            font-weight: 200;
+            color:rgb(54, 192, 157) ;
+        }
+        &_active{
+            display: block;
+            right: 35%;
+        }
+    }
+    // hamburger
+    .hamburger {  
+       
+		right: -35%;
+        margin-right: 10%;				
+    }
+    
+    .logo{
+        width: 90px;
+        height: 24px;
+    }
+    .phone{
+        margin-left: 170px;
+        img{
+            width: 12px;
+            height: 12px;
+        }
+        &_number{
+            font-size: 10px;
+        }
+    }
+    .title_subtittle{
+        top: 90px;
+        left: 100px;
+        font-size: 10px
+    }
+    .title_bigtitle{
+        left: 100;
+        top: 130px;
+        font-size: 14px;
+        max-width: 250px; 
+        line-height: 30px;
+    }
+    
+    .btn{
+        width: 90px;
+        height: 20px;
+        margin-top: 200px;
+        margin-left: 100px;
+        font-size: 9px;
+    }
+    .sidepanel{
+        margin-left: 240px;
+        margin-top: 200px;
+        img{
+            width: 18px;
+            height: 18px;
+        }
+    }
+}
+@media (max-width:524px){   
+    .demo_block_foto{
+        margin-top: -35%;
+        display: flex;
+        transform: translateX(-170%) scaleX(0.48) scaleY(0.48);       
+        }      
+    .present_text{      
+        top:15%;
+        transform: translateX(80%) scaleX(0.48) scaleY(0.48); 
+    }
+}
+
+// =>1920px
+@media (min-width: 1920px){
+    
+    .title_subtittle{
+        left: 370px;
+    }
+    .title_bigtitle{
+        left: 370px;
+    }
+}
+
+@media (min-width: 1940px){
+    .title_subtittle{
+        left: 380px;
+    }
+    .title_bigtitle{
+        left: 380px;
+    }
+}
+
+@media (min-width: 1980px){
+    .title_subtittle{
+        left: 400px;
+    }
+    .title_bigtitle{
+        left: 400px;
+    }
+}
+
+@media (min-width: 2020px){
+    .title_subtittle{
+        left: 420px;
+    }
+    .title_bigtitle{
+        left: 420px;
+    }
+}
+
